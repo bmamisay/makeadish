@@ -1,62 +1,62 @@
 const dishes = [
   {
-    name: "Adobo Buddy",
+    name: "AdoBOO",
     image: "images/adobo.png"
   },
   {
-    name: "BBQ Stick Buddy",
+    name: "Cortel BBQ Sticks",
     image: "images/bbq.png"
   },
   {
-    name: "Burger Buddy",
+    name: "Burger Bud",
     image: "images/burger.png"
   },
   {
-    name: "Burrito Buddy",
+    name: "Movie Burrito",
     image: "images/burrito.png"
   },
   {
-    name: "Cali Roll Cutie",
+    name: "Yama Cali Roll",
     image: "images/caliroll.png"
   },
   {
-    name: "Coffee Cutie",
+    name: "Coffee w Cold Foam",
     image: "images/coffee.png"
   },
   {
-    name: "Coke Cutie",
+    name: "Yes Coke!!!!",
     image: "images/coke.png"
   },
   {
-    name: "Curry Buddy",
+    name: "Coco Curry",
     image: "images/curry.png"
   },
   {
-    name: "Nigiri Buddy",
+    name: "Nigiri",
     image: "images/nigiri.png"
   },
   {
-    name: "Sinigang Smile",
+    name: "Sinigangster",
     image: "images/sinigang.png"
   },
   {
-    name: "Spam Buddy",
+    name: "Filo Brekky",
     image: "images/spam.png"
   },
   {
-    name: "Thai Tea Cutie",
+    name: "Thai Tea",
     image: "images/thai.png"
   },
   {
-    name: "Tteokbokki Buddy",
+    name: "Tteok WITH CHEESE",
     image: "images/tteok.png"
   },
   {
-    name: "XLB Buddy",
+    name: "7g XLB",
     image: "images/xlb.png"
   },
   {
-    name: "Yubu Cutie",
+    name: "YuBOO",
     image: "images/yubu.png"
   }
 ];
@@ -75,7 +75,7 @@ function isElevenEleven() {
   const isAM1111 = hours === 11 && minutes === 11;
   const isPM1111 = hours === 23 && minutes === 11;
 
-  return isAM1111 || isPM1111;
+  return true;
 }
 
 function getCurrentDishTimeKey() {

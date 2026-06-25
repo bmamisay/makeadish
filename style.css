@@ -49,6 +49,7 @@ h1 {
   display: block;
   margin: 0 auto 18px auto;
   object-fit: contain;
+  background: transparent;
 }
 
 .dish-name {
