@@ -75,7 +75,7 @@ function isElevenEleven() {
   const isAM1111 = hours === 11 && minutes === 11;
   const isPM1111 = hours === 23 && minutes === 11;
 
-  return true;
+  return isAM1111 || isPM1111;
 }
 
 function getCurrentDishTimeKey() {
